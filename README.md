@@ -255,9 +255,15 @@ If you find our project useful, please consider citing:
   doi={10.1109/ICRA55743.2025.11128474}}
 ```
 
+致谢与声明 (Acknowledgments)
+本项目基于开源强化学习与机器人仿真框架进行二次开发、消融实验与算法验证：
 
+核心仿真框架: 感谢 legged_gym 团队提供的基于 GPU 加速的四足机器人强化学习与仿真运行环境。
 
+底层算法支持: 项目使用的 PPO（近端策略优化）算法及相关策略逻辑参考了 ETH Zurich (Robotic Systems Lab) 的 rsl_rl 算法库。
 
+机器人资产: 项目中使用的 12 自由度四足机器人模型资产（mybot_v3）基于开源规范适配与四川大学川山甲ROBOCON战队内部标定。
 
+本项目仅用于学术研究、强化学习控制原理探索及个人学习报告。
 
 
