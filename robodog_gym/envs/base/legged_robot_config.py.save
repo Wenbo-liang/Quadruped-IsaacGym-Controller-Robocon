@@ -1,0 +1,13 @@
+# License: see [LICENSE, LICENSES/legged_gym/LICENSE]
+
+from params_proto import PrefixProto, ParamsProto
+
+
+class Cfg(PrefixProto, cli=False):
+    class env(PrefixProto, cli=False):
+        num_envs = 4096
+        
+        num_dof = 12
+        num_actions = 12
+        env_spacing = 3.  # not used with heightfields/trimeshes
+        send_timeouts = True  # send time out information to the algorithm
